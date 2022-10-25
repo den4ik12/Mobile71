@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/restart"
+        android:title="Заново"
+        />
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/music"
+            android:title="Музыка"
+            android:checked="false"
+            />
+
+        <item
+            android:id="@+id/sounds"
+            android:title="Звуки"
+            android:checked="false"
+            />
+    </group>
+</menu>
